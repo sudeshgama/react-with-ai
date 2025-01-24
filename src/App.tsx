@@ -2,6 +2,7 @@ import './App.css'
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import AiAgent from './components/ai-agent';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Typography variant="h2" gutterBottom>
           Welcome
         </Typography>
+        <AiAgent />
       </Box>
     </Container>
   )
